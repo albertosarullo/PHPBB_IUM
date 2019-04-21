@@ -67,7 +67,7 @@ $lang = array_merge(
 	'ANDREASK_IUM_TOP_USER_THREADS_COUNT_EXPLAIN'	=>	'Anzahl der Topthemen des Benutzers, die in der E-Mail enthalten sein sollten.',
 	'ANDREASK_IUM_TOP_FORUM_THREADS_EXPLAIN'	=>	'Wenn aktiviert, wird die Mail die Topthemen des Forums seit seinem letzten Besuch enthalten.',
 	'ANDREASK_IUM_TOP_FORUM_THREADS_COUNT_EXPLAIN'	=>	'Anzahl der Forum-Themen, die in der E-Mail enthalten sein sollen.',
-	'ANDREASK_IUM_SELF_DELETE_EXPLAIN'	=>	'Wenn aktiviert, dann wird ein Link zur Seite "<strong>board_url/ium/{random_key}</strong>" in der E-Mail an das Benutzer enthalten sein, über den er seinen Zugang selbst löschen kann.',
+	'ANDREASK_IUM_SELF_DELETE_EXPLAIN'	=>	'Wenn aktiviert, dann wird ein Link zur Seite "<strong>board_url/ium/{random_key}</strong>" in der E-Mail an den Benutzer enthalten sein, über den er seinen Zugang selbst löschen kann.',
 	'ANDREASK_IUM_DELETE_APPROVE_EXPLAIN'	=>	'Wenn aktiviert, dann müssen alle Anfragen zur Selbstlöschung von einem Administrator geprüft werden.',
 	'ANDREASK_IUM_KEEP_POSTS_EXPLAIN'	=>	'"Ja" wird den Zugang löschen, aber die Beiträge <strong>beibehalten</strong>, "Nein" wird die Beiträge des Nutzers ebenso löschen.',
 	'ANDREASK_IUM_IGNORE_LIST_EXPLAIN'	=>	'Hier können die Benutzer auswählt werden, denen keine Erinnerungsmails gesendet oder von der Ausschlussliste gelöscht werden sollen..<br/><strong>Pro Zeile ein Nutzername.<br/>Hinweis:</strong> Die nachfolgenden Gruppen werden standardmäßig ignoriert: 1. Gäste, 4. Globale Moderatoren, 5. Administratoren and 6. Bots.',
@@ -102,10 +102,10 @@ $lang = array_merge(
 									3	=>	'Vom Administrator deaktiviert',
 									4	=>	'Dauerhaft gesperrt',
 									5	=>	'Zeitweilig gesperrt'),
-	'NEVER_CONNECTED'	=>	'Das Benutzer hat sich nie angemeldet',
+	'NEVER_CONNECTED'	=>	'Der Benutzer hat sich nie angemeldet',
 	
 	// Inactive users list page
-	'ACP_IUM_NODATE'	=>	'Das Benutzer ist <strong>nicht</strong> deaktiviert',
+	'ACP_IUM_NODATE'	=>	'Der Benutzer ist <strong>nicht</strong> deaktiviert',
 	'ACP_USERS_WITH_POSTS'	=>	'Zeige nur Benutzer mit Beiträgen',
 	'LAST_SENT_REMINDER'	=>	'Letzte Erinnerung',
 	'NO_REMINDER_COUNT'	=>	'Bisher keine Erinnerungen geschickt',
